@@ -1,0 +1,38 @@
+.p1{
+    font-size: 30px;
+    position: fixed;
+    color: red;
+}
+.p2{
+    width: 320px;
+    height: 190px;
+    position: absolute;
+    right: 300px;
+}
+.p3{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 268px;
+    bottom: 345px;
+}
+.p4{
+    font-size: 30px;
+    color: rgb(4, 255, 0);
+}
+.p5{
+    font-size: 30px;
+    position: relative;
+    bottom: 400px;
+    left: 40px;
+    color: rgb(4, 0, 255);
+}
+.p6{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.718);
+    font-family: sans-serif;
+}
+.p7{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.723);
+}

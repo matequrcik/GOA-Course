@@ -1,0 +1,60 @@
+#i1{
+    outline: none;
+    border: 1px dashed red;
+    border-radius: 10%;
+    background-color: rgb(255, 234, 0);
+}
+#i2{
+    outline: none;
+    border: 2px dotted rgb(255, 255, 0);
+    border-radius: 9%;
+    background-color: rgb(38, 255, 0);
+}
+#i3{
+    outline: none;
+    border: 3px double rgb(60, 255, 0);
+    border-radius: 8%;
+    background-color: rgb(0, 251, 255);
+}
+#i4{
+    outline: none;
+    border: 0.3px dashed rgb(0, 251, 255);
+    border-radius: 7%;
+    background-color: rgb(0, 0, 255);
+}
+#i5{
+    outline: none;
+    border: 0.8px dotted rgb(0, 8, 255);
+    border-radius: 6%;
+    background-color: rgb(149, 0, 255);
+}
+#i6{
+    outline: none;
+    border: 0.8px double rgb(149, 0, 255);
+    border-radius: 5%;
+    background-color: rgb(255, 0, 157);
+}
+#i7{
+    outline: none;
+    border: 1.6px dashed rgb(0, 38, 255);
+    border-radius: 4%;
+    background-color: rgb(0, 255, 13);
+}
+#i8{
+    outline: none;
+    border: 0.8px dotted rgb(183, 61, 0);
+    border-radius: 11%;
+    background-color: rgb(92, 0, 131);
+}
+#i9{
+    outline: none;
+    border: 2px double rgb(0, 0, 0);
+    border-radius: 12%;
+    background-color: rgb(229, 229, 229);
+}
+#i10{
+    outline: none;
+    border: 4px dashed rgb(87, 87, 87);
+    border-radius: 8%;
+    background-color: rgb(236, 236, 236);
+}

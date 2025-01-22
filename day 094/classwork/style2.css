@@ -1,0 +1,15 @@
+.w1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+
+}
+#gf{
+    background-color: blue;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+}
+.d1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+.d1:hover{
+    width: 115px;
+    height: 115px;
+}

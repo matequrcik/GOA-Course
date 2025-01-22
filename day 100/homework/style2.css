@@ -1,0 +1,28 @@
+.d1{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    transition: 0.4s;
+    
+}
+h3{
+    color: white;
+}
+.d2{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+
+    
+}
+div{
+    position: relative;
+    z-index: 301px;
+}
+p{
+position: absolute;
+top: 10;
+}
+.d1:hover{
+    background-color: rgba(255, 0, 0, 0);
+}

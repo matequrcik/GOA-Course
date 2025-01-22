@@ -1,0 +1,14 @@
+#df{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    gap: 10px;;
+}
+.hw{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}

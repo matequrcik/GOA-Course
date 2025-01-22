@@ -1,0 +1,13 @@
+.d1{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.d2{
+    background-color: rgb(59, 253, 0);
+    width: 100px;
+    height: 100px;
+    border: red double 3px;
+}

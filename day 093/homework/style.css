@@ -1,0 +1,13 @@
+#d1 , #d2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+#d1 , #d3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+}
+#d1{
+    flex-direction: row;
+}

@@ -1,0 +1,47 @@
+.d0{
+    border: red double;
+    width: 200px;
+    height: 750px;
+}
+.d1{
+    border: green double;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 70px;
+}
+.d2{
+    border: green double;
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 70px;
+}
+.d4{
+    border: green double;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 70px;
+}
+.d5{
+    border: green double;
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 70px;
+}
+.d6{
+    border: green double;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 70px;
+}
+.d7{
+    border: green double;
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 70px;
+}

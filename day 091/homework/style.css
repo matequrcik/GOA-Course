@@ -1,0 +1,17 @@
+#i1{
+    border:1px dotted red,
+}
+#i2{
+    outline: none;
+}
+#i3{
+    border:2px double aqua;
+}
+#i4{
+    outline:invert;
+    color: rgb(0, 193, 0);
+}
+#i5{
+    outline: none;
+    border: 2px double rgb(255, 247, 0);
+}

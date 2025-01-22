@@ -1,0 +1,35 @@
+body{
+    background-color: #fcd64f;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.main-div{
+    background-color: white;
+    width: 350px;
+    height: 460px;
+    border-radius: 10px;
+}
+.ldiv{
+    background-color:#f0d150;
+    margin-top:10px ;
+    margin-left: 20px;
+    display:inline-block;
+}
+.main-div img{
+    border-radius: 10px;
+    margin: 20px 20px 3px 20px;
+}
+.p1{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-bottom:4px ;
+}
+h1{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 22px;
+}
