@@ -1,0 +1,20 @@
+.d1{
+    background-color: red;
+    transform: scale(5);
+}
+.d2{
+    background-color: rgb(255, 204, 0);
+    transform: scaleX(4.3);
+}
+.d3{
+    background-color: rgb(55, 255, 0);
+    transform: scaleY(6.001);
+}
+.d4{
+    background-color: rgb(0, 94, 255);
+    transform: scaleX(0.2) scaleY(9.7);
+}
+.d5{
+    background-color: rgb(255, 0, 183);
+    transform: scaleX(9.9) scaleY(1);
+}

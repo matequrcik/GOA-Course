@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    gap: 90px;
+    background-color: rgb(219, 219, 219);
+}
+div{
+    background-color: white;
+    width: 432px;
+    height: 600px;
+    border-radius: 5px;
+}
+img{
+    border-radius: 4px;
+    width: 432px;
+}
+fieldset{
+text-align: center;
+position: relative;
+top: 238px;
+}
+#sq{
+    position: relative;
+    top: 160px;
+}

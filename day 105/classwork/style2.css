@@ -1,0 +1,23 @@
+div{
+    background-color: aqua;
+}
+.d1{
+transform: scalex(6) skew(70) rotate(2deg) translate(12);
+}
+.d2{
+    transform: scaley(6) skew(70) rotate(2deg) translate(2);
+}
+.d3{
+    transform: scalex(6) scaley(5) skew(70) rotate(4deg) translate(32);
+}
+.d4{
+    transform: scalex(6) skew(20) rotate(0.1deg) translate(9.3);
+}
+.d5{
+    transform: scalex(6) skew(60) rotate(1deg) translate(2.2);
+}
+.div:hover{
+    transform: rotate(50deg) skew(60);
+    background-color: rgb(30, 255, 0);
+}
+
