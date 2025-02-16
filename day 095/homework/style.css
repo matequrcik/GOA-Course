@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+h1{
+    font-family: "Dancing Script", serif;
+    font-size: 100px;
+    position: relative;
+}
+h1 .chad{
+    position: absolute;
+    top: -20px;
+    right: 1321px;
+    width: 35px;
+}
+
+h1 .loser{
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+    transform: rotateY(180deg);
+    width: 40px;
+}

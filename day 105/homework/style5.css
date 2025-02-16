@@ -1,0 +1,13 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: black;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: blue;
+    transform: translate(50px) scaleZ(20px);
+    
+}
