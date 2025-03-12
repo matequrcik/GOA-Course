@@ -1,0 +1,22 @@
+body{
+    background-image: url(image1.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: rgb(21, 21, 21);
+    font-family: sans-serif;
+    transform: skew(23413deg) ;
+}
+.i1{
+    border-radius: 20px;
+}
+p{
+    background-color: rgb(133, 133, 133);
+    position: fixed;
+    
+}
