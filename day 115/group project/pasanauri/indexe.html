@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adress</title>
+</head>
+<style>
+    body {
+    display: flex;
+    background: linear-gradient(to right, #032004, #2b0404);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation:sitee 1.2s ease-in forwards;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 32px;
+    font-size: 26px;
+}
+
+button:hover {
+    font-size: 20px;
+    transition: 0.3s;
+    color: rgb(187, 255, 168);
+    background-color: rgb(48, 0, 0);
+}
+.reg{
+align-items: center;
+background-color: rgb(201, 227, 191);
+border: double 2px blue;
+width: 260px;
+height: 300px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
+top: 80px;
+
+}
+@keyframes sitee {
+0%{
+transform: translateX(-132%) translateY(-89px);
+
+opacity: 0;
+}
+50%{
+transform:  translateX(132%) translateY(89px);
+}
+100%{
+transform: translateX(0);
+opacity: 1;
+}
+}
+input:hover{
+    transition: 0.4s;
+    border: dotted 1px red;
+    font-size: 14px;
+}
+</style>
+<body>
+    
+    <div class="reg"> 
+    <h1>type to accept</h1>
+    <label for=""></label>
+    <input type="email" placeholder="E-mail" id="Email" required><br>
+    <label for=""></label>
+    <input type="password" placeholder="credit-card number" id="credit-card" required><br>
+    <a href="index.html"><button>Next</button></a></div>
+
+</body>
+
+</html>

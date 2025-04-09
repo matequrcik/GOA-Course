@@ -1,0 +1,143 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-image: url(image2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(4.1px);
+    animation:site 1s ease-out forwards;
+}
+@keyframes site {
+    0%{
+        transform: translateX(-132%) translateY(-89px);
+        
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes h1h {
+    0%{
+        transform: translateX(132%) translateY(89px);
+        
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.chosenum{
+    position: relative;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation:h1h 1.5s ease-out forwards;
+}
+h3{
+    color: rgb(255, 255, 255);
+    opacity: 60%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.button{
+    width: 40px;
+    height: 20px;
+    transition: 0.4s;
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button:hover{
+    background-color: rgb(255, 225, 0);
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0.3px 0.3px 0.2px;
+}
+.button:active{
+    background-color: greenyellow;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+h5{
+    color: rgba(238, 238, 238, 0.888);
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 9px;
+}
+.foot{
+    position: absolute;
+    right: 70px;
+    bottom: 8px;
+}
+.footimg{
+    border-radius: 17px;
+    position: relative;
+    left: 400px;
+}
+.prise{
+    animation:pris 5s infinite forwards; 
+}
+@keyframes pris{
+    0%{
+        color: black;
+    }
+    5%{
+        color: rgb(255, 0, 0);
+    }
+    10%{
+        color: rgb(255, 100, 0);
+    }
+    20%{
+        color: rgb(255, 200, 0);
+    }
+    30%{
+        color: rgb(34, 255, 0);
+    }
+    40%{
+        color: rgb(0, 255, 208);
+    }
+    50%{
+        color: rgb(0, 174, 255);
+    }
+    60%{
+        color: rgb(17, 0, 255);
+    }
+    70%{
+        color: rgb(132, 0, 255);
+    }
+    80%{
+        color: rgb(255, 0, 221);
+    }
+    90%{
+        color: rgb(225, 0, 124);
+    }
+    100%{
+        color: rgb(0, 0, 0);
+    }
+}
+.prisephoto{
+    transition: 0.5s;
+}
+.prisephoto:hover{
+    background-color: red;
+    border-radius: 20px;
+}
+.imgprise:hover{
+    border-radius: 20px;
+    transition: 0.3s;
+}
